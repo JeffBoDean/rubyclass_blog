@@ -17,3 +17,33 @@
        rails server
 
 7. Fire up your browser and go to <tt>http://localhost:3000/</tt>
+
+== Practice Workflow
+
+The goal is to get used to the daily GIT workflow. To do this, you will want to make changes to your application
+and then commit and push them to your Github repository.
+
+Make changes that are of interest to you. If you have strong design aesthetic, work with the stylesheets to make it pretty.
+If you are interested in adding more fields to your application you can do that too.
+
+= Command Line Workflow Example
+
+1. Make a change to a file somewhere.
+
+2. Check the status of your local repository
+       git status
+
+3. Inspect the differences in your local repository
+       git diff
+
+4. Add the file that you made changes to
+       git add [your_filename.rb]
+
+5. Commit the changes and be sure to include a commit message
+       git commit -m "I made it better!"
+
+6. Push your changes to your github repository
+       git push origin master
+
+7. Pull changes from your github repository (just for practice)
+       git pull origin master
