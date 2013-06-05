@@ -26,7 +26,7 @@ and then commit and push them to your Github repository.
 Make changes that are of interest to you. If you have strong design aesthetic, work with the stylesheets to make it pretty.
 If you are interested in adding more fields to your application you can do that too.
 
-= Command Line Workflow Example
+=== Command Line Workflow Example
 
 1. Make a change to a file somewhere.
 
